@@ -11,4 +11,4 @@
 7. Added framer motion animation in motion.js
 8. Implemented a dummy portfolio dataset for futher reusability.
 9. Imported BrowserRouter and other components to the App.jsx file
-10.
+10. Added navbar component with dymanic sections and mobile responsiveness.
