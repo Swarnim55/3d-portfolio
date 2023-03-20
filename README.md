@@ -13,3 +13,4 @@
 9. Imported BrowserRouter and other components to the App.jsx file
 10. Added navbar component with dymanic sections and mobile responsiveness.
 11. Created slider(hero) section and added 3d computer model with framer motion and threejs
+12. Added animated scroller below slider section to link to about section.

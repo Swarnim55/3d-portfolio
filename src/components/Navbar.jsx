@@ -28,11 +28,7 @@ const Navbar = () => {
           />
           <p className="text-white text-[18px] font-bold cursor-pointer ">
             {' '}
-            <span className="sm:block hidden ">
-              {' '}
-              Swarnim <br />
-              Paudyal
-            </span>
+            <span className="sm:block hidden "> Swarnim &nbsp; Paudyal</span>
           </p>
         </Link>
         <ul className="list-none hidden sm:flex flex-row gap-10">
