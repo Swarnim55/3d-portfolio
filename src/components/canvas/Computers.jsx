@@ -18,11 +18,11 @@ const Computers = ({ isMobile }) => {
         castShadow
         shadow-mapSize={1024}
       />
-      <pointLight intensity={1.15} position={[5, -10, 10.5]} />
+      <pointLight intensity={1.5} />
       <primitive
         object={computer.scene}
         scale={isMobile ? 0.35 : 0.45}
-        position={isMobile ? [-0.25, -1.25, -1] : [-0.25, -2, -1]}
+        position={isMobile ? [-0.25, -1.5, -0.5] : [-0.25, -2, -1]}
         rotation={isMobile ? [-0.01, 0, -0.15] : [-0.01, 0, -0.15]}
       />
     </mesh>
@@ -34,7 +34,7 @@ const ComputersCanvas = () => {
 
   useEffect(() => {
     // Add a listener for changes to the screen size
-    const mediaQuery = window.matchMedia('(max-width: 500px)');
+    const mediaQuery = window.matchMedia('(max-width: 768px)');
 
     // Set the initial value of the `isMobile` state variable
     setIsMobile(mediaQuery.matches);
