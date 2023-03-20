@@ -24,7 +24,7 @@ const Navbar = () => {
           <img
             src={logo_full}
             alt="logo"
-            className="w-30 h-25 object-contain"
+            className="w-30 h-20 object-contain"
           />
           <p className="text-white text-[18px] font-bold cursor-pointer ">
             {' '}
@@ -69,7 +69,7 @@ const Navbar = () => {
                     key={link.id}
                     className={`${
                       active === link.title ? 'text-white' : 'text-secondary'
-                    } font-poppins font-medium cursor-pointer text-[16px]`}
+                    } hover:text-white text-[18px] font-poppins font-medium cursor-pointer text-[16px]`}
                     onClick={() => {
                       setToggle(!toggle);
                       setActive(link.title);
