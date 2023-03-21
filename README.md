@@ -14,3 +14,4 @@
 10. Added navbar component with dymanic sections and mobile responsiveness.
 11. Created slider(hero) section and added 3d computer model with framer motion and threejs
 12. Added animated scroller below slider section to link to about section.
+13. Created about section with motion framer and added a higher order component for wrapping.
