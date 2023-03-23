@@ -16,3 +16,4 @@
 12. Added animated scroller below slider section to link to about section.
 13. Created about section with motion framer and added a higher order component for wrapping.
 14. Added experience section with vertical timeline.
+15. Created Tech Section with Ball Loader and Canvas from Three Fiber.
