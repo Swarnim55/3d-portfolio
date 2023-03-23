@@ -17,3 +17,4 @@
 13. Created about section with motion framer and added a higher order component for wrapping.
 14. Added experience section with vertical timeline.
 15. Created Tech Section with Ball Loader and Canvas from Three Fiber.
+16. Created Project Section with React Tilt.
