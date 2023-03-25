@@ -18,3 +18,4 @@
 14. Added experience section with vertical timeline.
 15. Created Tech Section with Ball Loader and Canvas from Three Fiber.
 16. Created Project Section with React Tilt.
+17. Added Feedback Section
