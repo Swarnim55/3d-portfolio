@@ -24,7 +24,7 @@ const Navbar = () => {
           <img
             src={logo_full}
             alt="logo"
-            className="w-30 h-20 object-contain"
+            className="w-12 h-12 object-contain"
           />
           <p className="text-white text-[18px] font-bold cursor-pointer ">
             {' '}
@@ -56,7 +56,7 @@ const Navbar = () => {
           <div
             className={`${
               !toggle ? 'hidden' : 'flex'
-            } p-6 black-gradient absolute top-20 right-0 mx-4 my-6 min-w[140px] z-10 rounded-xl`}
+            } p-6 black-gradient absolute top-12 right-0 mx-4 my-6 min-w[140px] z-10 rounded-xl`}
           >
             <ul className="list-none flex justify-end items-start flex-col gap-4">
               {navLinks.map((link) => {

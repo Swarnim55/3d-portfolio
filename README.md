@@ -19,4 +19,6 @@
 15. Created Tech Section with Ball Loader and Canvas from Three Fiber.
 16. Created Project Section with React Tilt.
 17. Added Feedback Section
-18. Created Contact Form with 3d earth model with framer motion and three js
+18. Created Contact Form with 3d earth model with framer motion and emailjs to let users send email to contact.
+19. Added stars background to the contact form section.
+20. Added EmailJs API to receive email from users.
